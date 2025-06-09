@@ -5,7 +5,7 @@
     "color": "bg-blue-600 hover:bg-blue-800"
   },
   {
-    "label": "User Portal",
+    "label": "Service Catalog",
     "url": "https://demo.example.com/user",
     "color": "bg-green-600 hover:bg-green-800"
   },
