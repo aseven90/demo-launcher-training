@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Launcher</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f3f4f6;
+      text-align: center;
+      padding: 2rem;
+      margin: 0;
+    }
+    img {
+      height: 96px;
+      margin: 0 auto 1.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #374151;
+      margin-bottom: 2rem;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .blue { background-color: #2563eb; }
+    .blue:hover { background-color: #1e40af; }
+    .green { background-color: #16a34a; }
+    .green:hover { background-color: #166534; }
+    .purple { background-color: #7e22ce; }
+    .purple:hover { background-color: #581c87; }
+  </style>
+</head>
+<body>
+
+  <img src="logo.png" alt="Logo" />
+  <h1>Welcome to the Demo Portal</h1>
+  <p>Click a button below to explore different parts of the demo environment.</p>
+
+  <div class="button-container">
+    <a href="https://demo.example.com/admin" target="_blank" class="btn blue">Admin Panel</a>
+    <a href="https://demo.example.com/user" target="_blank" class="btn green">User Portal</a>
+    <a href="https://demo.example.com/docs" target="_blank" class="btn purple">API Docs</a>
+  </div>
+
+</body>
+</html>
