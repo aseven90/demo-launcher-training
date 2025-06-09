@@ -1,0 +1,17 @@
+"buttons": [
+  {
+    "label": "Product Catalog",
+    "url": "https://training.test.orbitant.dev/ui/productCatalogManagement/catalog",
+    "color": "bg-blue-600 hover:bg-blue-800"
+  },
+  {
+    "label": "User Portal",
+    "url": "https://demo.example.com/user",
+    "color": "bg-green-600 hover:bg-green-800"
+  },
+  {
+    "label": "API Docs",
+    "url": "https://demo.example.com/docs",
+    "color": "bg-purple-600 hover:bg-purple-800"
+  }
+]
